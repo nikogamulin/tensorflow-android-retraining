@@ -1,6 +1,6 @@
 # tensorflow-android-retraining
 
-TensorFlow version: 0.11.0rc0
+TensorFlow version: 0.11.0rc0 [Download and Setup](https://www.tensorflow.org/versions/r0.11/get_started/os_setup.html)
 
 For each object or group of objects create a folder in /images/source.
 
@@ -17,6 +17,8 @@ After the images have been resized, the model can be retrained by simpy running 
 ##Android
 
 To use the retrained model in Android App, simply copy the graph and labels files to assets folder and modify the Android example code in order to match used model (in this case inception v3).
+
+For more info check [TensorFlow Android Camera Demo](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/android)
 
 settings in TensorFlowImageListener.java:
 ```

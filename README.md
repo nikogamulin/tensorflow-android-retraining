@@ -1,4 +1,4 @@
-# tensorflow-android-retraining
+# TensorFlow Android Retraining
 
 TensorFlow version: 0.11.0rc0 [Download and Setup](https://www.tensorflow.org/versions/r0.11/get_started/os_setup.html)
 

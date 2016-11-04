@@ -19,7 +19,7 @@ After the images have been resized, the model can be retrained by simpy running 
 To use the retrained model in Android App, simply copy the graph and labels files to assets folder and modify the Android example code in order to match used model (in this case inception v3).
 
 settings in TensorFlowImageListener.java:
-`
+```
 private static final int NUM_CLASSES = [number of classes (number of images/processed folders)];
 private static final int INPUT_SIZE = 299; //adapted to inception v3
 private static final int IMAGE_MEAN = 128; //adapted to inception v3
@@ -29,7 +29,7 @@ private static final String OUTPUT_NAME = "final_result:0"; //adapted to paramet
 
 private static final String MODEL_FILE = "file:///android_asset/inception_v3_optimized.pb";
 private static final String LABEL_FILE = "file:///android_asset/labels.txt";
-`
+```
 
 
 
